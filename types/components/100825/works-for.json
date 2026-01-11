@@ -1,0 +1,70 @@
+{
+  "name": "works-for",
+  "display_name": "Work",
+  "description": null,
+  "created_at": "2021-02-21T07:44:18.954Z",
+  "updated_at": "2021-02-21T07:49:52.957Z",
+  "id": 1359870,
+  "schema": {
+    "name": {
+      "type": "text",
+      "pos": 0
+    },
+    "type": {
+      "type": "option",
+      "use_uuid": true,
+      "options": [
+        {
+          "value": "LocalBusiness",
+          "name": "Local Business"
+        }
+      ],
+      "pos": 1
+    },
+    "url": {
+      "type": "multilink",
+      "pos": 2
+    },
+    "logo": {
+      "type": "asset",
+      "filetypes": [
+        "images"
+      ],
+      "pos": 3
+    },
+    "images": {
+      "type": "multiasset",
+      "pos": 4,
+      "filetypes": [
+        "images"
+      ]
+    },
+    "telephone": {
+      "type": "text",
+      "pos": 5
+    },
+    "address": {
+      "type": "bloks",
+      "restrict_components": true,
+      "component_whitelist": [
+        "address"
+      ],
+      "maximum": "1"
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": false,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "Work",
+  "component_group_uuid": "6000c94f-0f4e-4bca-aae0-642a08da52ee",
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

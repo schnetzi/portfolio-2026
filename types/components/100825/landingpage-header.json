@@ -1,0 +1,47 @@
+{
+  "name": "landingpage-header",
+  "display_name": "Landingpage-Header",
+  "description": null,
+  "created_at": "2020-12-31T07:54:27.881Z",
+  "updated_at": "2021-01-03T14:04:47.717Z",
+  "id": 1256126,
+  "schema": {
+    "introduction": {
+      "type": "bloks",
+      "restrict_components": true,
+      "component_whitelist": [
+        "introduction"
+      ],
+      "maximum": "1",
+      "required": true
+    },
+    "skills": {
+      "type": "bloks",
+      "restrict_components": true,
+      "component_whitelist": [
+        "skill-list"
+      ],
+      "maximum": "3",
+      "description": "Insert a list of skills",
+      "restrict_type": "groups",
+      "component_group_whitelist": [
+        "a68b3943-c271-4c3f-b692-492dced2a4b8"
+      ]
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "Landingpage-Header",
+  "component_group_uuid": null,
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

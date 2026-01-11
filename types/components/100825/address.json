@@ -1,0 +1,42 @@
+{
+  "name": "address",
+  "display_name": "Address",
+  "description": null,
+  "created_at": "2021-02-16T18:05:19.700Z",
+  "updated_at": "2021-02-24T00:00:58.372Z",
+  "id": 1349275,
+  "schema": {
+    "addressRegion": {
+      "type": "text",
+      "pos": 0
+    },
+    "streetAddress": {
+      "type": "text",
+      "pos": 1
+    },
+    "postalCode": {
+      "type": "text",
+      "pos": 2
+    },
+    "addressCountry": {
+      "type": "text",
+      "description": "For example: AT",
+      "pos": 3
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": false,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "Address",
+  "component_group_uuid": "6000c94f-0f4e-4bca-aae0-642a08da52ee",
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

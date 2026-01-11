@@ -1,0 +1,65 @@
+{
+  "name": "personal",
+  "display_name": null,
+  "description": null,
+  "created_at": "2021-02-16T18:08:28.024Z",
+  "updated_at": "2021-02-21T21:22:16.596Z",
+  "id": 1349276,
+  "schema": {
+    "name": {
+      "type": "text"
+    },
+    "image": {
+      "type": "asset",
+      "filetypes": [
+        "images"
+      ],
+      "description": "Image of yourself"
+    },
+    "description": {
+      "type": "text"
+    },
+    "telephone": {
+      "type": "text"
+    },
+    "gender": {
+      "type": "option",
+      "use_uuid": true,
+      "options": [
+        {
+          "value": "f",
+          "name": "Female"
+        },
+        {
+          "value": "m",
+          "name": "Male"
+        }
+      ]
+    },
+    "nationality": {
+      "type": "text",
+      "description": "For example: Austrian"
+    },
+    "url": {
+      "type": "multilink"
+    },
+    "jobTitle": {
+      "type": "text"
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": false,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "personal",
+  "component_group_uuid": "6000c94f-0f4e-4bca-aae0-642a08da52ee",
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

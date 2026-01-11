@@ -1,0 +1,48 @@
+{
+  "name": "open_graph",
+  "display_name": "Open Graph Data",
+  "description": null,
+  "created_at": "2021-02-08T18:01:45.801Z",
+  "updated_at": "2021-02-13T23:28:10.692Z",
+  "id": 1333045,
+  "schema": {
+    "title": {
+      "type": "text",
+      "pos": 0,
+      "max_length": "55"
+    },
+    "description": {
+      "type": "text",
+      "max_length": "200",
+      "pos": 1
+    },
+    "twitter_handle": {
+      "type": "text",
+      "pos": 2,
+      "description": "Add your twitter handle for adding a twitter card. For example @_schnetzi_. Don't forget the \"@\"",
+      "default_value": ""
+    },
+    "image": {
+      "type": "asset",
+      "filetypes": [
+        "images"
+      ],
+      "pos": 3
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "Open Graph Data",
+  "component_group_uuid": null,
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

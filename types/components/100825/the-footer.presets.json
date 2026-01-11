@@ -1,0 +1,145 @@
+[
+  {
+    "id": 831294,
+    "name": "Default Footer",
+    "preset": {
+      "_uid": "57afbd45-a07a-4932-bc67-ccf26aad64ff",
+      "links": {
+        "id": "90416508-c251-487a-b884-bd3ab87817f3",
+        "url": "",
+        "linktype": "story",
+        "fieldtype": "multilink",
+        "cached_url": "imprint"
+      },
+      "title": "Creating websites is my passion",
+      "contact": [
+        {
+          "_uid": "51b3959a-6c19-4b42-bc18-89719f053069",
+          "title": "Creating websites is my passion",
+          "subtitle": "Do you have a web project that could use some consulting or help? Or do       you have any questions? I’d love to hear from you.",
+          "component": "footer-contact",
+          "call_to_action_link": "mailto:paul.schnetzinger.at",
+          "call_to_action_text": "Just get in touch!"
+        }
+      ],
+      "subtitle": "Do you have a web project that could use some consulting or help? Or do       you have any questions? I’d love to hear from you.",
+      "component": "the-footer",
+      "copyright": "Paul Schnetzinger",
+      "call_to_action": {
+        "id": "",
+        "url": "",
+        "email": "paul.schnetzinger@gmx.at",
+        "linktype": "email",
+        "fieldtype": "multilink",
+        "cached_url": ""
+      },
+      "external_icons": [
+        {
+          "_uid": "4a23140a-2a55-4b1e-b012-b72789e21ae3",
+          "icon": {
+            "id": 1771834,
+            "alt": "",
+            "name": "",
+            "focus": null,
+            "title": "",
+            "filename": "https://a.storyblok.com/f/100825/x/198c3f3a2d/email.svg",
+            "copyright": "",
+            "fieldtype": "asset"
+          },
+          "link": {
+            "id": "",
+            "url": "",
+            "email": "paul.schnetzinger@gmx.at",
+            "linktype": "email",
+            "fieldtype": "multilink",
+            "cached_url": ""
+          },
+          "title": "Contact via e-mail",
+          "component": "footer-icon",
+          "icon_hover": {
+            "id": 1771835,
+            "alt": "",
+            "name": "",
+            "focus": null,
+            "title": "",
+            "filename": "https://a.storyblok.com/f/100825/x/fa0179cd2b/email-filled.svg",
+            "copyright": "",
+            "fieldtype": "asset"
+          }
+        },
+        {
+          "_uid": "3b24aae4-6fdd-44ca-8c14-611456a304f4",
+          "icon": {
+            "id": 1771861,
+            "alt": "LinkedIn",
+            "name": "",
+            "focus": null,
+            "title": "",
+            "filename": "https://a.storyblok.com/f/100825/x/86715c6dcc/linkedin.svg",
+            "copyright": "",
+            "fieldtype": "asset"
+          },
+          "link": {
+            "id": "",
+            "url": "https://www.linkedin.com/in/paulschnetzinger/",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://www.linkedin.com/in/paulschnetzinger/"
+          },
+          "title": "Paul Schnetzingers LinkedIn profile",
+          "component": "footer-icon",
+          "icon_hover": {
+            "id": 1771862,
+            "alt": "LinkedIn",
+            "name": "",
+            "focus": null,
+            "title": "",
+            "filename": "https://a.storyblok.com/f/100825/x/88794f21e4/linkedin-filled.svg",
+            "copyright": "",
+            "fieldtype": "asset"
+          }
+        },
+        {
+          "_uid": "f95ab3cd-45ef-4536-b63c-5009faa0b553",
+          "icon": {
+            "id": 1771852,
+            "alt": "",
+            "name": "",
+            "focus": null,
+            "title": "",
+            "filename": "https://a.storyblok.com/f/100825/x/ec91bad7f0/vogel.svg",
+            "copyright": "",
+            "fieldtype": "asset"
+          },
+          "link": {
+            "id": "",
+            "url": "https://twitter.com/_schnetzi_",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://twitter.com/_schnetzi_"
+          },
+          "title": "Twitter profile",
+          "component": "footer-icon",
+          "icon_hover": {
+            "id": 1771853,
+            "alt": "",
+            "name": "",
+            "focus": null,
+            "title": "",
+            "filename": "https://a.storyblok.com/f/100825/x/9fae2b57fb/vogel-filled.svg",
+            "copyright": "",
+            "fieldtype": "asset"
+          }
+        }
+      ]
+    },
+    "component_id": 1256794,
+    "space_id": 100825,
+    "created_at": "2021-01-03T14:03:16.084Z",
+    "updated_at": "2021-01-03T14:03:16.084Z",
+    "image": "",
+    "color": null,
+    "icon": null,
+    "description": null
+  }
+]

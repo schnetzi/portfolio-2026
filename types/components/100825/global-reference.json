@@ -1,0 +1,36 @@
+{
+  "name": "global-reference",
+  "display_name": null,
+  "description": null,
+  "created_at": "2021-01-07T22:59:44.546Z",
+  "updated_at": "2021-02-21T08:08:57.158Z",
+  "id": 1266440,
+  "schema": {
+    "reference": {
+      "type": "options",
+      "restrict_components": true,
+      "component_whitelist": [
+        "global-reference"
+      ],
+      "use_uuid": true,
+      "source": "internal_stories",
+      "folder_slug": "global/",
+      "filter_content_type": "global"
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "global-reference",
+  "component_group_uuid": null,
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

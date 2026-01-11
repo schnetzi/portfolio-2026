@@ -1,13 +1,45 @@
 {
-  "name": "portfolio-nuxt-4",
+  "name": "paul.schnetzinger",
   "type": "module",
   "private": true,
+  "version": "5.0.0",
+  "description": "Paul Schnetzinger is a passionate web developer from Austria. He is working on products with cutting edge technologies. Visit the site to get more information.",
+  "keywords": [
+    "portfolio",
+    "communication",
+    "html5",
+    "css3",
+    "javascript",
+    "typescript",
+    "nuxt",
+    "angular",
+    "vue.js",
+    "web developer",
+    "full stack developer",
+    "rxjs",
+    "php",
+    "responsive design",
+    "ajax",
+    "rest",
+    "node.js",
+    "laravel",
+    "sql",
+    "mysql",
+    "react"
+  ],
+  "author": {
+    "name": "Paul Schnetzinger",
+    "url": "https://paul.schnetzinger.at"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "start": "npm run dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@nuxt/eslint": "^1.12.1",
@@ -15,10 +47,17 @@
     "@nuxt/hints": "^1.0.0-alpha.5",
     "@nuxt/image": "^2.0.0",
     "@nuxt/scripts": "^0.13.2",
+    "@storyblok/nuxt": "^8.2.3",
     "@unhead/vue": "^2.1.1",
     "eslint": "^9.39.2",
     "nuxt": "^4.2.2",
     "vue": "^3.5.26",
     "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "nuxt-svgo": "^4.2.6",
+    "sass-embedded": "^1.97.1",
+    "typescript": "^5.9.3"
   }
 }

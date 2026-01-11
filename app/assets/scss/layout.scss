@@ -1,0 +1,15 @@
+@use 'variables' as *;
+@use 'media-queries' as *;
+
+.l-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $width-of-outer-space;
+  padding-left: $width-of-outer-space;
+  max-width: $width-of-page-content;
+
+  @include desktop-big {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

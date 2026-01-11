@@ -1,0 +1,1213 @@
+[
+  {
+    "name": "address",
+    "display_name": "Address",
+    "description": null,
+    "created_at": "2021-02-16T18:05:19.700Z",
+    "updated_at": "2021-02-24T00:00:58.372Z",
+    "id": 1349275,
+    "schema": {
+      "addressRegion": {
+        "type": "text",
+        "pos": 0
+      },
+      "streetAddress": {
+        "type": "text",
+        "pos": 1
+      },
+      "postalCode": {
+        "type": "text",
+        "pos": 2
+      },
+      "addressCountry": {
+        "type": "text",
+        "description": "For example: AT",
+        "pos": 3
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": false,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Address",
+    "component_group_uuid": "6000c94f-0f4e-4bca-aae0-642a08da52ee",
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "alumni-of",
+    "display_name": null,
+    "description": null,
+    "created_at": "2021-02-16T18:02:53.721Z",
+    "updated_at": "2021-02-21T07:40:45.286Z",
+    "id": 1349274,
+    "schema": {
+      "name": {
+        "type": "text",
+        "display_name": "",
+        "pos": 0
+      },
+      "type": {
+        "type": "option",
+        "description": "Example: Organization",
+        "pos": 1,
+        "use_uuid": true,
+        "options": [
+          {
+            "value": "Organization",
+            "name": "Organization"
+          },
+          {
+            "value": "CollegeOrUniversity",
+            "name": "College or University"
+          }
+        ]
+      },
+      "url": {
+        "type": "multilink",
+        "description": "Homepage of the type",
+        "pos": 2
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": false,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "alumni-of",
+    "component_group_uuid": "6000c94f-0f4e-4bca-aae0-642a08da52ee",
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "contact-information",
+    "display_name": null,
+    "description": null,
+    "created_at": "2021-01-04T18:11:27.123Z",
+    "updated_at": "2021-02-22T15:29:20.265Z",
+    "id": 1261201,
+    "schema": {
+      "headline": {
+        "type": "text",
+        "pos": 0,
+        "required": true,
+        "description": "Contact headline",
+        "display_name": "",
+        "default_value": "Contact",
+        "translatable": true
+      },
+      "name": {
+        "type": "text",
+        "pos": 1,
+        "required": true
+      },
+      "email": {
+        "type": "multilink",
+        "email_link_type": true,
+        "pos": 2
+      },
+      "telephone": {
+        "type": "text",
+        "restrict_content_types": false,
+        "description": "You can input your phone with the country code",
+        "default_value": "",
+        "pos": 3
+      },
+      "street": {
+        "type": "text"
+      },
+      "postalCode": {
+        "type": "text"
+      },
+      "city": {
+        "type": "text"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "contact-information",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "education-item",
+    "display_name": "Education",
+    "description": null,
+    "created_at": "2020-12-30T21:58:05.322Z",
+    "updated_at": "2021-01-03T10:56:32.460Z",
+    "id": 1255772,
+    "schema": {
+      "title": {
+        "type": "text",
+        "translatable": true,
+        "description": "Title of the study program (e.g. Software Engineering)",
+        "display_name": "Title",
+        "required": true,
+        "pos": 0
+      },
+      "degree": {
+        "type": "text",
+        "pos": 1,
+        "max_length": "",
+        "description": "Degree you were finishing with (e.g. BA, MSc, Dr)"
+      },
+      "university": {
+        "type": "text",
+        "translatable": true,
+        "max_length": "256",
+        "description": "Name of the university",
+        "required": true,
+        "pos": 2
+      },
+      "description": {
+        "type": "textarea",
+        "translatable": true,
+        "pos": 3
+      },
+      "start_year": {
+        "type": "number",
+        "required": true,
+        "description": "The start year of the program",
+        "pos": 4,
+        "disable_time": true
+      },
+      "end_year": {
+        "type": "number",
+        "pos": 5,
+        "description": "The end year of the program"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Education",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "footer-contact",
+    "display_name": null,
+    "description": null,
+    "created_at": "2020-12-31T13:44:47.292Z",
+    "updated_at": "2021-01-04T18:50:58.939Z",
+    "id": 1256831,
+    "schema": {
+      "title": {
+        "type": "text"
+      },
+      "subtitle": {
+        "type": "text"
+      },
+      "call_to_action_text": {
+        "type": "text"
+      },
+      "call_to_action_link": {
+        "type": "multilink",
+        "email_link_type": true,
+        "description": "E-Mail-Address",
+        "display_name": ""
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "footer-contact",
+    "component_group_uuid": "11057d14-529c-4bd6-b606-9d6a58d716a6",
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "footer-icon",
+    "display_name": "Footer social icon",
+    "description": null,
+    "created_at": "2020-12-31T12:44:37.321Z",
+    "updated_at": "2021-01-03T10:56:49.398Z",
+    "id": 1256793,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0
+      },
+      "link": {
+        "type": "multilink",
+        "pos": 1,
+        "restrict_content_types": false,
+        "email_link_type": true
+      },
+      "icon": {
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ],
+        "required": true,
+        "pos": 2,
+        "description": "Icon default",
+        "display_name": ""
+      },
+      "icon_hover": {
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ],
+        "description": "Icon on mouseover"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Footer social icon",
+    "component_group_uuid": "11057d14-529c-4bd6-b606-9d6a58d716a6",
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "footer-link",
+    "display_name": "Link",
+    "description": null,
+    "created_at": "2021-01-03T22:19:07.657Z",
+    "updated_at": "2021-01-03T22:25:16.567Z",
+    "id": 1259639,
+    "schema": {
+      "link": {
+        "type": "multilink",
+        "restrict_components": true,
+        "show_anchor": true
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": "",
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Link",
+    "component_group_uuid": "11057d14-529c-4bd6-b606-9d6a58d716a6",
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "global",
+    "display_name": null,
+    "description": null,
+    "created_at": "2021-01-06T16:10:39.612Z",
+    "updated_at": "2021-02-21T08:06:56.162Z",
+    "id": 1264233,
+    "schema": {
+      "global": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "the-schema",
+          "the-footer"
+        ],
+        "maximum": "1"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": true,
+    "preview_tmpl": null,
+    "is_nestable": false,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "global",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "global-reference",
+    "display_name": null,
+    "description": null,
+    "created_at": "2021-01-07T22:59:44.546Z",
+    "updated_at": "2021-02-21T08:08:57.158Z",
+    "id": 1266440,
+    "schema": {
+      "reference": {
+        "type": "options",
+        "restrict_components": true,
+        "component_whitelist": [
+          "global-reference"
+        ],
+        "use_uuid": true,
+        "source": "internal_stories",
+        "folder_slug": "global/",
+        "filter_content_type": "global"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "global-reference",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "headline-element",
+    "display_name": null,
+    "description": null,
+    "created_at": "2021-01-04T17:30:38.557Z",
+    "updated_at": "2021-01-04T17:32:54.482Z",
+    "id": 1261194,
+    "schema": {
+      "size": {
+        "type": "options",
+        "min_options": "1",
+        "max_options": "1",
+        "options": [
+          {
+            "value": "h1",
+            "name": "title (h1)"
+          },
+          {
+            "value": "h2",
+            "name": "big-headline (h2)"
+          },
+          {
+            "value": "h3",
+            "name": "headline (h3)"
+          }
+        ],
+        "description": "Defines the size of the headline"
+      },
+      "text": {
+        "type": "text"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "headline-element",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "introduction",
+    "display_name": "Introduction",
+    "description": null,
+    "created_at": "2020-12-30T22:17:00.145Z",
+    "updated_at": "2021-01-03T10:56:59.852Z",
+    "id": 1255806,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "translatable": true,
+        "required": true,
+        "max_length": "20",
+        "display_name": "Title"
+      },
+      "subtitle": {
+        "type": "text",
+        "description": "The description of your title.",
+        "translatable": true,
+        "required": true
+      },
+      "image": {
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ],
+        "required": true,
+        "description": "The introduction image",
+        "display_name": ""
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Introduction",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "landingpage-header",
+    "display_name": "Landingpage-Header",
+    "description": null,
+    "created_at": "2020-12-31T07:54:27.881Z",
+    "updated_at": "2021-01-03T14:04:47.717Z",
+    "id": 1256126,
+    "schema": {
+      "introduction": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "introduction"
+        ],
+        "maximum": "1",
+        "required": true
+      },
+      "skills": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "skill-list"
+        ],
+        "maximum": "3",
+        "description": "Insert a list of skills",
+        "restrict_type": "groups",
+        "component_group_whitelist": [
+          "a68b3943-c271-4c3f-b692-492dced2a4b8"
+        ]
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Landingpage-Header",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "open_graph",
+    "display_name": "Open Graph Data",
+    "description": null,
+    "created_at": "2021-02-08T18:01:45.801Z",
+    "updated_at": "2021-02-13T23:28:10.692Z",
+    "id": 1333045,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "max_length": "55"
+      },
+      "description": {
+        "type": "text",
+        "max_length": "200",
+        "pos": 1
+      },
+      "twitter_handle": {
+        "type": "text",
+        "pos": 2,
+        "description": "Add your twitter handle for adding a twitter card. For example @_schnetzi_. Don't forget the \"@\"",
+        "default_value": ""
+      },
+      "image": {
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ],
+        "pos": 3
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Open Graph Data",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "page",
+    "display_name": null,
+    "description": null,
+    "created_at": "2020-12-30T21:58:06.496Z",
+    "updated_at": "2021-03-06T08:15:28.871Z",
+    "id": 1255776,
+    "schema": {
+      "body": {
+        "type": "bloks",
+        "pos": 0,
+        "maximum": "",
+        "restrict_components": true,
+        "component_whitelist": [
+          "landingpage-header",
+          "the-content",
+          "the-header",
+          "global-reference"
+        ]
+      },
+      "seo": {
+        "type": "custom",
+        "field_type": "seo-metatags",
+        "options": []
+      },
+      "openGraph": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "open_graph"
+        ],
+        "maximum": "1",
+        "display_name": "Twitter open graph data"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": true,
+    "preview_tmpl": null,
+    "is_nestable": false,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "page",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "personal",
+    "display_name": null,
+    "description": null,
+    "created_at": "2021-02-16T18:08:28.024Z",
+    "updated_at": "2021-02-21T21:22:16.596Z",
+    "id": 1349276,
+    "schema": {
+      "name": {
+        "type": "text"
+      },
+      "image": {
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ],
+        "description": "Image of yourself"
+      },
+      "description": {
+        "type": "text"
+      },
+      "telephone": {
+        "type": "text"
+      },
+      "gender": {
+        "type": "option",
+        "use_uuid": true,
+        "options": [
+          {
+            "value": "f",
+            "name": "Female"
+          },
+          {
+            "value": "m",
+            "name": "Male"
+          }
+        ]
+      },
+      "nationality": {
+        "type": "text",
+        "description": "For example: Austrian"
+      },
+      "url": {
+        "type": "multilink"
+      },
+      "jobTitle": {
+        "type": "text"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": false,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "personal",
+    "component_group_uuid": "6000c94f-0f4e-4bca-aae0-642a08da52ee",
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "richtext",
+    "display_name": null,
+    "description": null,
+    "created_at": "2021-01-04T17:35:25.039Z",
+    "updated_at": "2021-01-04T18:06:57.395Z",
+    "id": 1261196,
+    "schema": {
+      "text": {
+        "type": "richtext",
+        "translatable": true,
+        "restrict_components": false,
+        "customize_toolbar": true,
+        "toolbar": [
+          "bold",
+          "italic",
+          "strike",
+          "underline",
+          "inlinecode",
+          "code",
+          "paragraph",
+          "h1",
+          "h2",
+          "h3",
+          "list",
+          "olist",
+          "quote",
+          "hrule",
+          "link",
+          "image",
+          "paste"
+        ]
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "richtext",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "same-as",
+    "display_name": null,
+    "description": null,
+    "created_at": "2021-02-16T18:12:49.346Z",
+    "updated_at": "2021-02-16T18:19:19.986Z",
+    "id": 1349278,
+    "schema": {
+      "url": {
+        "type": "multilink",
+        "display_name": "URL"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": false,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "same-as",
+    "component_group_uuid": "6000c94f-0f4e-4bca-aae0-642a08da52ee",
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "skill-item",
+    "display_name": "Skill Item",
+    "description": null,
+    "created_at": "2020-12-30T21:58:03.474Z",
+    "updated_at": "2020-12-31T07:59:50.262Z",
+    "id": 1255766,
+    "schema": {
+      "title": {
+        "type": "text",
+        "translatable": true,
+        "max_length": "128",
+        "required": true,
+        "default_value": "",
+        "description": "Examples: \"HTML5 & CSS3\", \"Headless CMS\", \"Team Player\""
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Skill Item",
+    "component_group_uuid": "a68b3943-c271-4c3f-b692-492dced2a4b8",
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "skill-list",
+    "display_name": "Skill List",
+    "description": null,
+    "created_at": "2020-12-30T21:58:04.687Z",
+    "updated_at": "2020-12-31T08:57:16.867Z",
+    "id": 1255770,
+    "schema": {
+      "title": {
+        "type": "text",
+        "max_length": "128",
+        "translatable": true,
+        "required": true
+      },
+      "body": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "skill-item"
+        ],
+        "maximum": "10",
+        "display_name": "Skill list"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Skill List",
+    "component_group_uuid": "a68b3943-c271-4c3f-b692-492dced2a4b8",
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "the-content",
+    "display_name": "Content",
+    "description": null,
+    "created_at": "2020-12-31T09:09:17.669Z",
+    "updated_at": "2021-01-04T18:13:14.507Z",
+    "id": 1256135,
+    "schema": {
+      "body": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "section-headline",
+          "work-item",
+          "education-item",
+          "richtext",
+          "contact-information"
+        ]
+      },
+      "work_image_alternate": {
+        "type": "boolean",
+        "description": "Should the work images be displayed alternate left and right?"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Content",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "the-footer",
+    "display_name": "Footer",
+    "description": null,
+    "created_at": "2020-12-31T12:47:09.875Z",
+    "updated_at": "2021-02-16T18:40:00.805Z",
+    "id": 1256794,
+    "schema": {
+      "contact": {
+        "type": "bloks",
+        "pos": 0,
+        "restrict_components": true,
+        "component_whitelist": [
+          "footer-contact"
+        ],
+        "maximum": "1"
+      },
+      "copyright": {
+        "type": "text",
+        "description": "Owner of the website. Will get the link to the homepage.",
+        "pos": 2
+      },
+      "links": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "footer-link"
+        ],
+        "maximum": "10",
+        "description": "Links for footer navigation"
+      },
+      "externalIcons": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "footer-icon"
+        ],
+        "maximum": "7",
+        "description": "",
+        "pos": 1
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [
+      {
+        "id": 831294,
+        "name": "Default Footer",
+        "component_id": 1256794,
+        "image": "",
+        "icon": null,
+        "color": null,
+        "description": null
+      }
+    ],
+    "preset_id": 831294,
+    "real_name": "Footer",
+    "component_group_uuid": "11057d14-529c-4bd6-b606-9d6a58d716a6",
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "the-header",
+    "display_name": "Header",
+    "description": null,
+    "created_at": "2021-01-03T14:05:03.068Z",
+    "updated_at": "2021-01-03T14:06:08.841Z",
+    "id": 1259308,
+    "schema": {
+      "title": {
+        "type": "text",
+        "required": true,
+        "description": "Headline of the page (h1)"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Header",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "the-schema",
+    "display_name": "Schema Org Data",
+    "description": null,
+    "created_at": "2021-02-16T18:17:30.772Z",
+    "updated_at": "2021-02-21T07:47:33.205Z",
+    "id": 1349281,
+    "schema": {
+      "personal": {
+        "type": "bloks",
+        "restrict_components": true,
+        "restrict_type": "",
+        "component_group_whitelist": [
+          "6000c94f-0f4e-4bca-aae0-642a08da52ee"
+        ],
+        "component_whitelist": [
+          "personal"
+        ],
+        "maximum": "1"
+      },
+      "address": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "address"
+        ],
+        "maximum": "1"
+      },
+      "alumni": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "alumni-of"
+        ]
+      },
+      "links": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "same-as"
+        ]
+      },
+      "work": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "works-for"
+        ]
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [
+      {
+        "id": 898007,
+        "name": "schema@paul",
+        "component_id": 1349281,
+        "image": "",
+        "icon": null,
+        "color": null,
+        "description": null
+      }
+    ],
+    "preset_id": null,
+    "real_name": "Schema Org Data",
+    "component_group_uuid": "6000c94f-0f4e-4bca-aae0-642a08da52ee",
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "work-item",
+    "display_name": "Work experience",
+    "description": null,
+    "created_at": "2020-12-30T21:58:05.032Z",
+    "updated_at": "2021-01-03T10:57:15.114Z",
+    "id": 1255771,
+    "schema": {
+      "title": {
+        "type": "text",
+        "translatable": true,
+        "required": true,
+        "description": "Title of your work (e.g. Software Developer)",
+        "pos": 0
+      },
+      "company_name": {
+        "type": "text",
+        "pos": 1
+      },
+      "description": {
+        "type": "textarea",
+        "translatable": true,
+        "pos": 2
+      },
+      "start_date": {
+        "type": "datetime",
+        "disable_time": true,
+        "required": true,
+        "pos": 3,
+        "description": ""
+      },
+      "end_date": {
+        "type": "datetime",
+        "pos": 4,
+        "disable_time": true
+      },
+      "image": {
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ]
+      }
+    },
+    "image": null,
+    "preview_field": "company_name",
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Work experience",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "works-for",
+    "display_name": "Work",
+    "description": null,
+    "created_at": "2021-02-21T07:44:18.954Z",
+    "updated_at": "2021-02-21T07:49:52.957Z",
+    "id": 1359870,
+    "schema": {
+      "name": {
+        "type": "text",
+        "pos": 0
+      },
+      "type": {
+        "type": "option",
+        "use_uuid": true,
+        "options": [
+          {
+            "value": "LocalBusiness",
+            "name": "Local Business"
+          }
+        ],
+        "pos": 1
+      },
+      "url": {
+        "type": "multilink",
+        "pos": 2
+      },
+      "logo": {
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ],
+        "pos": 3
+      },
+      "images": {
+        "type": "multiasset",
+        "pos": 4,
+        "filetypes": [
+          "images"
+        ]
+      },
+      "telephone": {
+        "type": "text",
+        "pos": 5
+      },
+      "address": {
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "address"
+        ],
+        "maximum": "1"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": false,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Work",
+    "component_group_uuid": "6000c94f-0f4e-4bca-aae0-642a08da52ee",
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  }
+]

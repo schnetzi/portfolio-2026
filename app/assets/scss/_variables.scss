@@ -1,0 +1,43 @@
+@use 'spacing' as *;
+
+$font-family-primary: 'Lato', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI',
+  'Helvetica Neue', Arial, sans-serif;
+$font-family-secondary: 'Source Code Pro', 'Courier New', Courier, monospace;
+
+$size-heading-h1-minimum: 55px;
+$size-heading-h1-maximum: 80px;
+$size-heading-h2-minimum: 30px;
+$size-heading-h2-maximum: 42px;
+$size-heading-h3-minimum: 24px;
+$size-heading-h3-maximum: 28px;
+$size-heading-h4-minimum: 20px;
+$size-heading-h4-maximum: 24px;
+
+$size-default-font-minimum: 18px;
+$size-default-font-maximum: 26px;
+
+$size-border-radius: 2px;
+
+$font-weight-regular: 400;
+$font-weight-bold: 900;
+
+$color-white: #ffffff;
+$color-black: #142542;
+$color-gray: #59667b;
+
+$color-primary: #00aba9;
+
+$width-of-page-minimum: 400px;
+$width-of-page-maximum: 1200px;
+$width-of-page-content: 1100px;
+$width-of-content-block-s: 600px;
+$width-of-content-block-m: 800px;
+$width-of-footer-content-block: 870px;
+
+$width-of-outer-space: $space-lg;
+
+$width-tablet: 768px;
+$width-desktop: 1024px;
+$width-desktop-big: 1280px;
+
+$letter-spacing-s: 0.2px;

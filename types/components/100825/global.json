@@ -1,0 +1,34 @@
+{
+  "name": "global",
+  "display_name": null,
+  "description": null,
+  "created_at": "2021-01-06T16:10:39.612Z",
+  "updated_at": "2021-02-21T08:06:56.162Z",
+  "id": 1264233,
+  "schema": {
+    "global": {
+      "type": "bloks",
+      "restrict_components": true,
+      "component_whitelist": [
+        "the-schema",
+        "the-footer"
+      ],
+      "maximum": "1"
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": true,
+  "preview_tmpl": null,
+  "is_nestable": false,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "global",
+  "component_group_uuid": null,
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

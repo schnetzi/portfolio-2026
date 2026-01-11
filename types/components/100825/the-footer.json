@@ -1,0 +1,68 @@
+{
+  "name": "the-footer",
+  "display_name": "Footer",
+  "description": null,
+  "created_at": "2020-12-31T12:47:09.875Z",
+  "updated_at": "2021-02-16T18:40:00.805Z",
+  "id": 1256794,
+  "schema": {
+    "contact": {
+      "type": "bloks",
+      "pos": 0,
+      "restrict_components": true,
+      "component_whitelist": [
+        "footer-contact"
+      ],
+      "maximum": "1"
+    },
+    "copyright": {
+      "type": "text",
+      "description": "Owner of the website. Will get the link to the homepage.",
+      "pos": 2
+    },
+    "links": {
+      "type": "bloks",
+      "restrict_components": true,
+      "component_whitelist": [
+        "footer-link"
+      ],
+      "maximum": "10",
+      "description": "Links for footer navigation"
+    },
+    "externalIcons": {
+      "type": "bloks",
+      "restrict_components": true,
+      "component_whitelist": [
+        "footer-icon"
+      ],
+      "maximum": "7",
+      "description": "",
+      "pos": 1
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [
+    {
+      "id": 831294,
+      "name": "Default Footer",
+      "component_id": 1256794,
+      "image": "",
+      "icon": null,
+      "color": null,
+      "description": null
+    }
+  ],
+  "preset_id": 831294,
+  "real_name": "Footer",
+  "component_group_uuid": "11057d14-529c-4bd6-b606-9d6a58d716a6",
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "footer",
+    "id": 19280,
+    "uuid": "11057d14-529c-4bd6-b606-9d6a58d716a6",
+    "parent_id": null,
+    "parent_uuid": "11057d14-529c-4bd6-b606-9d6a58d716a6"
+  },
+  {
+    "name": "schema",
+    "id": 22261,
+    "uuid": "6000c94f-0f4e-4bca-aae0-642a08da52ee",
+    "parent_id": null,
+    "parent_uuid": "6000c94f-0f4e-4bca-aae0-642a08da52ee"
+  },
+  {
+    "name": "skills",
+    "id": 19270,
+    "uuid": "a68b3943-c271-4c3f-b692-492dced2a4b8",
+    "parent_id": null,
+    "parent_uuid": "a68b3943-c271-4c3f-b692-492dced2a4b8"
+  }
+]

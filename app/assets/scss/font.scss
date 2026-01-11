@@ -1,0 +1,44 @@
+@use 'mixins' as *;
+@use 'spacing' as *;
+@use 'variables' as *;
+
+.h2 {
+  @extend .fluid-h2;
+
+  line-height: 1.3;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.h3 {
+  @extend .fluid-h3;
+
+  line-height: 1;
+  letter-spacing: 0.3px;
+  font-weight: $font-weight-regular;
+}
+
+.h4 {
+  @extend .fluid-h4;
+
+  margin-bottom: $space-xs;
+  line-height: 1.3;
+  letter-spacing: $letter-spacing-s;
+  font-weight: $font-weight-bold;
+}
+
+.fluid-h1 {
+  @include fluid-type($size-heading-h1-minimum, $size-heading-h1-maximum);
+}
+
+.fluid-h2 {
+  @include fluid-type($size-heading-h2-minimum, $size-heading-h2-maximum);
+}
+
+.fluid-h3 {
+  @include fluid-type($size-heading-h3-minimum, $size-heading-h3-maximum);
+}
+
+.fluid-h4 {
+  @include fluid-type($size-heading-h4-minimum, $size-heading-h4-maximum);
+}

@@ -1,0 +1,40 @@
+{
+  "name": "the-content",
+  "display_name": "Content",
+  "description": null,
+  "created_at": "2020-12-31T09:09:17.669Z",
+  "updated_at": "2021-01-04T18:13:14.507Z",
+  "id": 1256135,
+  "schema": {
+    "body": {
+      "type": "bloks",
+      "restrict_components": true,
+      "component_whitelist": [
+        "section-headline",
+        "work-item",
+        "education-item",
+        "richtext",
+        "contact-information"
+      ]
+    },
+    "work_image_alternate": {
+      "type": "boolean",
+      "description": "Should the work images be displayed alternate left and right?"
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "Content",
+  "component_group_uuid": null,
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

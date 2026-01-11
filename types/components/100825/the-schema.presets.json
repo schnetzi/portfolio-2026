@@ -1,0 +1,226 @@
+[
+  {
+    "id": 898007,
+    "name": "schema@paul",
+    "preset": {
+      "_uid": "3c7a29fe-c044-425a-993b-2824bca85dc2",
+      "work": [
+        {
+          "url": {
+            "id": "",
+            "url": "https://paul.schnetzinger.at/",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://paul.schnetzinger.at/"
+          },
+          "_uid": "9b7b00bb-c9c7-49f2-98bd-61c166cc48f9",
+          "logo": {
+            "id": 1993778,
+            "alt": "Logo Paul Schnetzinger",
+            "name": "",
+            "focus": null,
+            "title": "Logo Paul Schnetzinger",
+            "filename": "https://a.storyblok.com/f/100825/513x512/34ea526221/logo.png",
+            "copyright": "Paul Schnetzinger",
+            "fieldtype": "asset"
+          },
+          "name": "Paul Schnetzinger",
+          "type": "LocalBusiness",
+          "images": [
+            {
+              "id": 1993778,
+              "alt": "Logo Paul Schnetzinger",
+              "name": "",
+              "focus": null,
+              "title": "Logo Paul Schnetzinger",
+              "filename": "https://a.storyblok.com/f/100825/513x512/34ea526221/logo.png",
+              "copyright": "Paul Schnetzinger"
+            },
+            {
+              "id": 1771574,
+              "alt": "Photo of Paul Schnetzinger",
+              "name": "",
+              "focus": null,
+              "title": "",
+              "filename": "https://a.storyblok.com/f/100825/600x600/6f544b30b4/paul-schnetzinger.jpg",
+              "copyright": "Paul Schnetzinger"
+            }
+          ],
+          "address": [
+            {
+              "_uid": "b8556ff1-aa0b-401c-b45b-686ead7e98d9",
+              "component": "address",
+              "postal_code": "3352",
+              "address_region": "Niederösterreich",
+              "address_country": "AT"
+            }
+          ],
+          "component": "works-for",
+          "telephone": "+436503049240"
+        }
+      ],
+      "links": [
+        {
+          "url": {
+            "id": "",
+            "url": "https://twitter.com/_schnetzi_",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://twitter.com/_schnetzi_"
+          },
+          "_uid": "4c28d0a4-e782-4dd2-b04b-5522d5c850d4",
+          "component": "same-as"
+        },
+        {
+          "url": {
+            "id": "",
+            "url": "https://www.linkedin.com/in/paulschnetzinger",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://www.linkedin.com/in/paulschnetzinger"
+          },
+          "_uid": "3b136e30-cf2a-4e76-a18f-a1bbcd79b4ff",
+          "component": "same-as"
+        },
+        {
+          "url": {
+            "id": "",
+            "url": "https://github.com/schnetzi",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://github.com/schnetzi"
+          },
+          "_uid": "96ac0553-32d2-4950-877f-cad39dcd4c7b",
+          "component": "same-as"
+        }
+      ],
+      "alumni": [
+        {
+          "url": {
+            "id": "",
+            "url": "https://www.innerspace.eu/",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://www.innerspace.eu/"
+          },
+          "_uid": "5cf5fbe9-8e83-4415-8221-105586e1153b",
+          "name": "Innerspace GmbH",
+          "type": "Organization",
+          "component": "alumni-of"
+        },
+        {
+          "url": {
+            "id": "",
+            "url": "https://findmore.pt/",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://findmore.pt/"
+          },
+          "_uid": "3b5e92b8-edaf-4618-91d3-ec5caeaefcc5",
+          "name": "Findmore Portugal",
+          "type": "Organization",
+          "component": "alumni-of"
+        },
+        {
+          "url": {
+            "id": "",
+            "url": "https://www.erecruiter.net/",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://www.erecruiter.net/"
+          },
+          "_uid": "a72ed482-95e9-4ad8-bbd4-9717c3cf07f3",
+          "name": "eRecruiter GmbH",
+          "type": "Organization",
+          "component": "alumni-of"
+        },
+        {
+          "url": {
+            "id": "",
+            "url": "https://www.karriere.at/",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://www.karriere.at/"
+          },
+          "_uid": "64366231-8c01-4b9f-8efa-40c13265f498",
+          "name": "karriere.at",
+          "type": "Organization",
+          "component": "alumni-of"
+        },
+        {
+          "url": {
+            "id": "",
+            "url": "https://www.fh-kufstein.ac.at/",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://www.fh-kufstein.ac.at/"
+          },
+          "_uid": "c7933152-1eb4-4410-92a9-ea09eb9cc6fe",
+          "name": "FH Kufstein University of Applied Sciences",
+          "type": "CollegeOrUniversity",
+          "component": "alumni-of"
+        },
+        {
+          "url": {
+            "id": "",
+            "url": "https://www.fh-ooe.at/campus-hagenberg/",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://www.fh-ooe.at/campus-hagenberg/"
+          },
+          "_uid": "43b5c917-dc4c-4cba-ba70-87fad03d5526",
+          "name": "University of Applied Sciences Upper Austria",
+          "type": "CollegeOrUniversity",
+          "component": "alumni-of"
+        }
+      ],
+      "address": [
+        {
+          "_uid": "5715616d-04ed-4f98-93f2-af8a7f0a7e8b",
+          "component": "address",
+          "postal_code": "3352",
+          "address_region": "Niederösterreich",
+          "address_country": "AT"
+        }
+      ],
+      "personal": [
+        {
+          "url": {
+            "id": "",
+            "url": "https://paul.schnetzinger.at",
+            "linktype": "url",
+            "fieldtype": "multilink",
+            "cached_url": "https://paul.schnetzinger.at"
+          },
+          "_uid": "03daabae-72cd-432e-9364-532f56ab89f7",
+          "name": "Paul Schnetzinger",
+          "image": {
+            "id": 1771574,
+            "alt": "Photo of Paul Schnetzinger",
+            "name": "",
+            "focus": null,
+            "title": "",
+            "filename": "https://a.storyblok.com/f/100825/600x600/6f544b30b4/paul-schnetzinger.jpg",
+            "copyright": "Paul Schnetzinger",
+            "fieldtype": "asset"
+          },
+          "gender": "m",
+          "component": "personal",
+          "job_title": "Web Developer",
+          "telephone": "+436503049240",
+          "description": "Paul Schnetzinger is a passionate web developer from Austria. He is working on products with cutting edge technologies.",
+          "nationality": "Austrian"
+        }
+      ],
+      "component": "the-schema"
+    },
+    "component_id": 1349281,
+    "space_id": 100825,
+    "created_at": "2021-02-21T07:56:59.781Z",
+    "updated_at": "2021-02-21T08:00:07.647Z",
+    "image": "",
+    "color": null,
+    "icon": null,
+    "description": null
+  }
+]

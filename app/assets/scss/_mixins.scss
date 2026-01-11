@@ -1,0 +1,41 @@
+@use 'sass:math';
+@use 'sass:meta';
+@use 'variables' as *;
+
+@function strip-unit($number) {
+  @if meta.type-of($number) == 'number' and not math.is-unitless($number) {
+    @return math.div($number, ($number * 0 + 1));
+  }
+
+  @return $number;
+}
+
+@mixin fluid-type(
+  $min-font-size,
+  $max-font-size,
+  $propertyName: 'font-size',
+  $min-vw: $width-of-page-minimum,
+  $max-vw: $width-of-page-maximum
+) {
+  $u1: math.unit($min-vw);
+  $u2: math.unit($max-vw);
+  $u3: math.unit($min-font-size);
+  $u4: math.unit($max-font-size);
+
+  @if $u1==$u2 and $u1==$u3 and $u1==$u4 {
+    & {
+      #{$propertyName}: $min-font-size;
+
+      @media screen and (min-width: $min-vw) {
+        #{$propertyName}: calc(
+          #{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} *
+            ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)})
+        );
+      }
+
+      @media screen and (min-width: $max-vw) {
+        #{$propertyName}: $max-font-size;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+* {
+  font-family: $font-family-primary;
+}
+
+html {
+  @include fluid-type($size-default-font-minimum, $size-default-font-maximum);
+
+  box-sizing: border-box;
+  word-spacing: 1px;
+  letter-spacing: $letter-spacing-s;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /* stylelint-disable property-no-vendor-prefix */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  /* stylelint-enable property-no-vendor-prefix */
+}
+
+a,
+a:visited {
+  color: $color-gray;
+}
+
+a:focus {
+  color: $color-black;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "same-as",
+  "display_name": null,
+  "description": null,
+  "created_at": "2021-02-16T18:12:49.346Z",
+  "updated_at": "2021-02-16T18:19:19.986Z",
+  "id": 1349278,
+  "schema": {
+    "url": {
+      "type": "multilink",
+      "display_name": "URL"
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": false,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "same-as",
+  "component_group_uuid": "6000c94f-0f4e-4bca-aae0-642a08da52ee",
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

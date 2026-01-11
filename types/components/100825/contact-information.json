@@ -1,0 +1,60 @@
+{
+  "name": "contact-information",
+  "display_name": null,
+  "description": null,
+  "created_at": "2021-01-04T18:11:27.123Z",
+  "updated_at": "2021-02-22T15:29:20.265Z",
+  "id": 1261201,
+  "schema": {
+    "headline": {
+      "type": "text",
+      "pos": 0,
+      "required": true,
+      "description": "Contact headline",
+      "display_name": "",
+      "default_value": "Contact",
+      "translatable": true
+    },
+    "name": {
+      "type": "text",
+      "pos": 1,
+      "required": true
+    },
+    "email": {
+      "type": "multilink",
+      "email_link_type": true,
+      "pos": 2
+    },
+    "telephone": {
+      "type": "text",
+      "restrict_content_types": false,
+      "description": "You can input your phone with the country code",
+      "default_value": "",
+      "pos": 3
+    },
+    "street": {
+      "type": "text"
+    },
+    "postalCode": {
+      "type": "text"
+    },
+    "city": {
+      "type": "text"
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "contact-information",
+  "component_group_uuid": null,
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

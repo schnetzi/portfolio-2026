@@ -1,0 +1,48 @@
+{
+  "name": "headline-element",
+  "display_name": null,
+  "description": null,
+  "created_at": "2021-01-04T17:30:38.557Z",
+  "updated_at": "2021-01-04T17:32:54.482Z",
+  "id": 1261194,
+  "schema": {
+    "size": {
+      "type": "options",
+      "min_options": "1",
+      "max_options": "1",
+      "options": [
+        {
+          "value": "h1",
+          "name": "title (h1)"
+        },
+        {
+          "value": "h2",
+          "name": "big-headline (h2)"
+        },
+        {
+          "value": "h3",
+          "name": "headline (h3)"
+        }
+      ],
+      "description": "Defines the size of the headline"
+    },
+    "text": {
+      "type": "text"
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "headline-element",
+  "component_group_uuid": null,
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}

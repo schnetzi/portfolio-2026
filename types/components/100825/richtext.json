@@ -1,0 +1,50 @@
+{
+  "name": "richtext",
+  "display_name": null,
+  "description": null,
+  "created_at": "2021-01-04T17:35:25.039Z",
+  "updated_at": "2021-01-04T18:06:57.395Z",
+  "id": 1261196,
+  "schema": {
+    "text": {
+      "type": "richtext",
+      "translatable": true,
+      "restrict_components": false,
+      "customize_toolbar": true,
+      "toolbar": [
+        "bold",
+        "italic",
+        "strike",
+        "underline",
+        "inlinecode",
+        "code",
+        "paragraph",
+        "h1",
+        "h2",
+        "h3",
+        "list",
+        "olist",
+        "quote",
+        "hrule",
+        "link",
+        "image",
+        "paste"
+      ]
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "richtext",
+  "component_group_uuid": null,
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "metadata": {}
+}
