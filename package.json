@@ -52,7 +52,7 @@
     "eslint": "^9.39.2",
     "nuxt": "^4.2.2",
     "vue": "^3.5.26",
-    "vue-router": "^5.0.0"
+    "vue-router": "^5.0.1"
   },
   "devDependencies": {
     "@types/node": "^25.1.0",
