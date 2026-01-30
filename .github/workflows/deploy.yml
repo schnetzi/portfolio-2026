@@ -30,7 +30,7 @@ jobs:
         env:
           BASE_URL: ${{ vars.BASE_URL }}
           GA_ID: ${{ vars.GA_ID }}
-          STORYBLOK_DELIVERY_API_TOKEN: ${{ vars.STORYBLOK_DELIVERY_API_TOKEN }}
+          NUXT_STORYBLOK_ACCESS_TOKEN: ${{ vars.NUXT_STORYBLOK_ACCESS_TOKEN }}
 
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@main
