@@ -42,4 +42,4 @@ jobs:
           SOURCE: ".output/public/"
           TARGET: ${{ secrets.DEPLOY_PATH }}
 #          ARGS: "-rlgoDzvc -i --delete"
-          ARGS: "-rlgoDzvc -i --dry-run"
+          ARGS: "-rlgoDzvc -i"
