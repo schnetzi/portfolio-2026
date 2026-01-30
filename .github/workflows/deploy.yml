@@ -41,5 +41,4 @@ jobs:
           REMOTE_PORT: 10805
           SOURCE: ".output/public/"
           TARGET: ${{ secrets.DEPLOY_PATH }}
-#          ARGS: "-rlgoDzvc -i --delete"
-          ARGS: "-rlgoDzvc -i"
+          ARGS: "-rlgoDzvc -i --delete"
