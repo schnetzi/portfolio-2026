@@ -1,2 +1,5 @@
-User-Agent: *
-Disallow:
+User-agent: *
+Disallow: /images/ps/
+
+User-agent: PetalBot
+Disallow: /
